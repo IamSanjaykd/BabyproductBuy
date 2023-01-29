@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    Simple xml code for no animation-->
+<!--    <translate-->
+<!--        android:fromXDelta="0%"-->
+<!--        android:fromYDelta="100%"/>-->
+
+<!--    Animations for textView growing up-->
+
+    <translate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1500"
+        android:fillAfter="true"
+        android:fromXDelta="0%p"
+        android:fromYDelta="100%p" />
+    <alpha
+        android:fromAlpha="0.1"
+        android:toAlpha="1.0"/>
+</set>
